@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#include<conio.h>
 using namespace std;
 
 class A{
@@ -18,6 +19,7 @@ void func(){
 int main(){
     A *a = new A[3];
     cout<<"***"<<endl;
-    delete a;
+    delete[]a;
+    getch();
     return 0;
 }
